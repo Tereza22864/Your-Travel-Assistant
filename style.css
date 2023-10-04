@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+    background-image: url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    height: 100vh;
+    color: #f2f2f2;
+    align-items:flex-start;
+}
+
+header ul {
+    background-color: #33292a; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+header li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
+    margin-right: 30px;
+}
+
+header a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+header nav {
+    position: absolute;
+    background-color: #33292a;
+    width: 100%;
+}
+
+/* Navigace */
+nav {
+    margin-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.menu-icon {
+    display: none;
+    margin-right: 30px;
+}
+
+.menu-icon {
+    display: block;
+    color: #f2f2f2;
+    font-size: 23px;
+}
+
+/*main box*/
+.main-box {
+    position: absolute;
+    right: 10%;
+    bottom:10%;
+}
+
+.main-box h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    font-size: 60px;
+    text-align: right;
+}
+
+/* about us */
+.about-us {
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+ 
+.about-us-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-us h2 {
+    padding-bottom: 20px;
+}
+ 
+.about-us p { 
+    text-align: left;
+    font-size: 16px;
+    color:#000;
+    margin-right: 20px;
+    width: 400px;
+}
+
+.about-us img {
+    width: 400px;
+}
+ 
+/* what we do */
+.what-we-do {
+    font-size: 16px;
+    background-color: #33292a;
+    padding: 50px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.what-we-do h2 {
+    padding-bottom: 12px;
+}
+
+.what-we-do-text {
+    padding: 0 100px;
+}
+
+.what-we-do-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.what-we-do-img img {
+    margin: 12px;
+    width: 50px;
+}
+
+/*photos*/   
+.photos {
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 15px;
+    padding: 80px;
+}
+
+.photos img, .photos p {
+    width: 300px; 
+    height: 200px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.photos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* where to go */
+.where-to-go {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #644b4f;
+    font-size: 16px;
+    color: #f2f2f2;  
+}
+
+.where-to-go-content {
+    margin-right: 60px;
+}
+
+.where-to-go h2 {
+    margin-top: 90px;
+}
+
+.where-to-go-text {
+    padding: 90px 0;
+}
+   
+.where-to-go-text p {
+    width: 550px;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.where-to-go-text button {
+    font-size: 16px; 
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* reviews */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: #000;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.reviews h2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.reviews p {
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*texts reviews*/
+.texts {
+    display: flex;
+    /* justify-content: space-around;  */
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.texts img { 
+    display: flex;
+    justify-content:center; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* margin-left: 300px; */
+}
+
+.reviews .texts {
+    justify-content: center; 
+}
+
+.reviews .texts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* images */
+.images {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+  
+.images img {
+    width: 50%;
+}
+
+/* contact */
+#contact {
+    font-family: 'Roboto', sans-serif;
+    color:#f2f2f2;
+    text-align: center;
+    background-color: #333333;
+    height: 80px;
+}
+  
+#contact h6 {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: #e9877b; 
+}
+
+#contact p {
+    font-size: 16px;
+    margin-top: 5px;
+}
